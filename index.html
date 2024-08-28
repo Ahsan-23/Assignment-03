@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- DaisyUI Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-manrope">
+    <header class="background-[#FFFFFF]">
+        <!-- Navbar starts Here -->
+        <nav class="w-10/12 mx-auto pt-6 flex items-center justify-between">
+            <!-- Nav first -->
+            <div class="flex items-center gap-2 lg:pl-20">
+                <i class="fa-solid fa-square-arrow-up-right  text-[#ABEF5F] rounded-full "></i>
+
+                <p class="text-2xl  font-extrabold">Rinterio</p>
+
+            </div>
+            <!-- Nav Middle -->
+             <div class="hidden lg:flex lg:gap-5 object-none">
+                <a class="font-bold" href="#">Home</a>
+                <a class="text-[#737373]" href="#">Services</a>
+                <a class="text-[#737373]"href="#">Portfolio</a>
+                <a class="text-[#737373]"href="#">Blogs</a>
+                <a class="text-[#737373]"href="#">Contact Us</a>
+             </div>
+
+             <!-- Nav Last -->
+              <div class="hidden lg:flex items-center gap-5">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+
+                <button><i class="fa-solid fa-cart-shopping"></i></button>
+
+                <button class="flex items-center bg-[#ABEF5F] px-3 py-3 rounded-xl gap-2">
+                    <p class="font-semibold">Book Consult</p>
+                    <i class="fa-solid fa-square-arrow-up-right rounded-full "></i>
+
+
+                </button>
+
+                
+              </div>
+              <button >
+                <div class="text-[#737373] bg-slate-50"><i class="fa-solid fa-bars lg:hidden"></i></div>
+            </button>
+        </nav>
+
+        <!-- Banner starts here -->
+         <section class="lg:w-10/12  flex flex-col items-center justify-center gap-10  mx-auto lg:pl-48">
+            <div class="pt-10 lg:pt-0 pl-32">
+                <img class=" lg:w-8/12 pr-24 lg:pl-30" src="./assets/banner.png" alt="">
+            </div>
+            <div class=" lg:w-full text-center">
+                <h1 class="lg:pr-32 text-[#212121] font-bold lg:text-5xl text-3xl">A barn house of this design has a  striking appearance</h1>
+            </div>
+            <div class="lg:pt-2  lg:-ml-32 ">
+                <p class="text-center tex-[16px] text-[#494949]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+            </div>
+            <button class="flex w-60 lg:w-40  lg:items-center bg-[#ABEF5F] gap-2 py-3 pl-14 lg:pl-3 lg:gap-0 rounded-xl   items-center lg:-ml-48">
+                <div class="lg:pl-1"><p class="font-semibold lg:pr-3">View Details</p></div>
+                <div><i class="fa-solid fa-square-arrow-up-right rounded-full "></i></div>
+
+
+            </button>
+         </section>
+    </header>
+    
+</body>
+</html>
