@@ -15,6 +15,18 @@
     <!-- DaisyUI Tailwind -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--  -->
+    <style>
+        .bg-foot {
+          background-image: url('./assets/bg.jpg');
+          background-size: cover;
+          background-position: center;
+        }
+      </style>
+
+   
+    
 </head>
 <body class="font-manrope">
     <header class="background-[#FFFFFF]">
@@ -85,7 +97,7 @@
                     </div>
         
                     <div class="flex  items-center lg:mt-4 mt-9 lg:ml-16 ml-28">
-                       <button class=" bg-[#FFFFFF] rounded-2xl lg:px-3 lg:py-1 font-bold"><i class="fa-solid fa-arrow-right "></i> About Us</button>
+                       <button class=" bg-[#FFFFFF] rounded-2xl px-3 py-1 font-bold "><i class="fa-solid fa-arrow-right "></i> About Us</button>
                     </div>
     
     
@@ -168,7 +180,7 @@
                     <p class="text-center font-normal">Our process blends creativity and efficiency, ensuring every project is delivered with precision,<br> from concept to execution.</p>
                  </div>
     
-                 <div class="flex flex-col lg:flex-row gap-5 mt-10 lg:pb-24">
+                 <div class="flex flex-col lg:flex-row gap-5 mt-10 pb-24">
                     <div class="bg-[#E7C1D3] px-5 py-7 rounded-2xl">
                         <div>
                             <img src="./assets/concept.png" alt="">
@@ -287,6 +299,93 @@
             </div>
          </section>
     </header>
+
+    <!-- footer Section -->
+     <footer class="w-full mt-4 bg-foot bg-cover bg-center flex flex-col text-center ">
+        <div class="flex flex-col items-center">
+            <div class="items-center mt-5">
+                <button class=" bg-[#ABEF5F33] rounded-2xl lg:px-3 lg:py-1 font-bold"><i class="fa-solid fa-arrow-right "></i>Let's Connect</button>
+            </div>
+            <div class="mt-3">
+                <h1 class="text-3xl font-extrabold">Let’s Discuss Next Project</h1>
+            </div>
+            <div class="mt-3">
+                <p class="font-normal text-center">Let’s dive into our upcoming topic, exploring new ideas and insights to <br>drive our conversation forward effectively</p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row mt-5 gap-5">
+                <div class="">
+                    <textarea type="text" placeholder="First Name*" rows="1" class="rounded-3xl lg:w-96 w-[330px] py-2 px-4 resize-none"></textarea>
+                </div>
+                <div>
+                    <textarea type="text" placeholder="Last Name*" rows="1" class="rounded-3xl lg:w-96 w-[330px] py-2 px-4 resize-none"></textarea>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:flex-row mt-5 gap-5">
+                <div>
+                    <textarea type="Number" placeholder="Phone Number*" rows="1" class="rounded-3xl lg:w-96 w-[330px] py-2 px-4 resize-none"></textarea>
+                </div>
+                <div>
+                    <textarea type="text" placeholder="Email*" rows="1" class="rounded-3xl lg:w-96 w-[330px] py-2 px-4 resize-none"></textarea>
+                </div>
+            </div>
+
+            <div class="flex mt-5 ">
+                <textarea type="text" placeholder="Write your message here" rows="10" class="rounded-3xl lg:w-[770px] w-[330px]  px-4 resize-none"></textarea>
+
+            </div>
+            <button class="flex items-center justify-center bg-[#ABEF5F] px-3 py-3 rounded-2xl gap-2 lg:w-[770px] w-[330px] mt-5 mb-20">
+                <p class="font-semibold ">Send Mail</p>
+                <i class="fa-solid fa-square-arrow-up-right rounded-full "></i>
+
+
+            </button>
+
+           
+        </div>
+
+
+        <!-- footer-2 -->
+         <section class="w-full bg-[#1C1C1C] lg:py-32 flex flex-col">
+            
+                <div class="flex items-center justify-center gap-2 ">
+                    <i class="fa-solid fa-square-arrow-up-right  text-[#ABEF5F] rounded-full "></i>
+                    <p class="text-2xl font-extrabold text-white">Rinterio</p>
+    
+                </div>
+                <div class=" flex items-center justify-center mt-5">
+                    <p class="font-normal text-center text-[#737373]">Rinterio transforms spaces with a fusion of innovative design and functional elegance,<br> using premium materials and cutting-edge techniques.</p>
+                </div>
+
+                <div class="flex flex-col lg:flex-row items-center justify-center lg:gap-5 mt-5 ">
+                    <a class="font-bold text-white py-3" href="#">Home</a>
+                    <a class="text-[#737373] py-3" href="#">Services</a>
+                    <a class="text-[#737373] py-3"href="#">Portfolio</a>
+                    <a class="text-[#737373] py-3"href="#">Blogs</a>
+                    <a class="text-[#737373] py-3"href="#">Contact Us</a>
+                 </div>
+                 <div class="flex items-center justify-center mt-5">
+                    <button class="flex items-center justify-center bg-[#ABEF5F] px-3 py-3 rounded-xl gap-2">
+                        <p class="font-semibold">Book Consult</p>
+                        <i class="fa-solid fa-square-arrow-up-right rounded-full "></i>
+    
+    
+                    </button>
+                 </div>
+
+
+            
+
+         </section>
+
+
+
+        
+    
+        
+
+     </footer>
     
 </body>
 </html>
